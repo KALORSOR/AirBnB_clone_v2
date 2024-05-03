@@ -6,7 +6,7 @@
 from fabric.api import env, local, put, run
 from datetime import datetime
 from os.path import exists, isdir
-env.hosts = ['3.229.113.167', '3.234.210.158']
+env.hosts = ['18.206.233.219', '100.25.109.63']
 env.user = 'ubuntu'
 env.identity = '~/.ssh/school'
 
